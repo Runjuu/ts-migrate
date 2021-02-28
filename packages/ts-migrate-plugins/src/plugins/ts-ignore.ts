@@ -1,6 +1,6 @@
 /* eslint-disable no-use-before-define, @typescript-eslint/no-use-before-define */
 import ts from 'typescript';
-import { Plugin } from 'ts-migrate-server';
+import { Plugin } from '@runjuu/ts-migrate-server';
 import { isDiagnosticWithLinePosition } from '../utils/type-guards';
 import updateSourceText, { SourceTextUpdate } from '../utils/updateSourceText';
 

@@ -1,6 +1,6 @@
 import { createProject } from '@ts-morph/bootstrap';
 import ts from 'typescript';
-import { PluginParams } from 'ts-migrate-server';
+import { PluginParams } from '@runjuu/ts-migrate-server';
 
 type WithoutFile<T> = Omit<T, 'file'>;
 

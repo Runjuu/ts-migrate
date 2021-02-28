@@ -18,7 +18,7 @@ Or [yarn](https://yarnpkg.com):
 
 ```typescript
 import path from 'path';
-import { migrate, MigrateConfig } from 'ts-migrate-server';
+import { migrate, MigrateConfig } from '@runjuu/ts-migrate-server';
 
 // get input files folder
 const inputDir = path.resolve(__dirname, 'input');
