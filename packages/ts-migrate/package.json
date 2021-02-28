@@ -9,6 +9,9 @@
     "ts-migrate": "build/cli.js",
     "ts-migrate-full": "bin/ts-migrate-full.sh"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "ts-migrate",
     "typescript",

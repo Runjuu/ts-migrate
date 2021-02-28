@@ -6,6 +6,9 @@
   "directories": {
     "test": "tests"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "ts-migrate",
     "ts-migrate-plugins",
