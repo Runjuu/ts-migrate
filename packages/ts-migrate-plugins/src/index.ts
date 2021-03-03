@@ -1,4 +1,4 @@
-import { Plugin as PluginType } from 'ts-migrate-server';
+import { Plugin as PluginType } from '@runjuu/ts-migrate-server';
 import declareMissingClassPropertiesPlugin from './plugins/declare-missing-class-properties';
 import eslintFixPlugin from './plugins/eslint-fix';
 import explicitAnyPlugin from './plugins/explicit-any';

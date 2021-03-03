@@ -1,10 +1,13 @@
 {
-  "name": "ts-migrate-server",
+  "name": "@runjuu/ts-migrate-server",
   "version": "0.1.11",
   "description": "A package that contains the main migration runner and spawns a TSServer process",
   "main": "build/src/index.js",
   "directories": {
     "test": "tests"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "ts-migrate",

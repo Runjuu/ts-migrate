@@ -20,8 +20,8 @@ import {
   stripTSIgnorePlugin,
   tsIgnorePlugin,
   Plugin,
-} from 'ts-migrate-plugins';
-import { migrate, MigrateConfig } from 'ts-migrate-server';
+} from '@runjuu/ts-migrate-plugins';
+import { migrate, MigrateConfig } from '@runjuu/ts-migrate-server';
 import init from './commands/init';
 import rename from './commands/rename';
 

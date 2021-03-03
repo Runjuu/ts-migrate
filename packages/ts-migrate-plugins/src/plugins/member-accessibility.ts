@@ -1,6 +1,6 @@
 /* eslint-disable no-bitwise */
 import ts from 'typescript';
-import { Plugin } from 'ts-migrate-server';
+import { Plugin } from '@runjuu/ts-migrate-server';
 
 type Options = {
   defaultAccessibility?: 'private' | 'protected' | 'public';

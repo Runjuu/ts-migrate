@@ -1,7 +1,7 @@
 import jscodeshift, { Identifier, TSTypeAnnotation } from 'jscodeshift';
 import { Collection } from 'jscodeshift/src/Collection';
 import ts from 'typescript';
-import { Plugin } from 'ts-migrate-server';
+import { Plugin } from '@runjuu/ts-migrate-server';
 import { isDiagnosticWithLinePosition } from '../utils/type-guards';
 
 type Options = { anyAlias?: string };
