@@ -1,6 +1,6 @@
 {
   "name": "@runjuu/ts-migrate",
-  "version": "0.1.11",
+  "version": "0.1.19",
   "description": "A tool for migrating frontend application from JavaScript to TypeScript",
   "directories": {
     "test": "tests"
@@ -65,11 +65,11 @@
   "homepage": "https://github.com/airbnb/ts-migrate#readme",
   "license": "MIT",
   "dependencies": {
+    "@runjuu/ts-migrate-plugins": "^0.1.19",
+    "@runjuu/ts-migrate-server": "^0.1.19",
     "create-jest-runner": "^0.5.3",
     "json5": "^2.1.1",
     "json5-writer": "^0.1.8",
-    "@runjuu/ts-migrate-plugins": "^0.1.11",
-    "@runjuu/ts-migrate-server": "^0.1.11",
     "typescript": "4.1.2",
     "updatable-log": "^0.2.0",
     "yargs": "^15.0.2"

@@ -1,6 +1,6 @@
 {
   "name": "@runjuu/ts-migrate-plugins",
-  "version": "0.1.11",
+  "version": "0.1.19",
   "description": "Set of codemods, which are doing transformation of js/jsx to ts/tsx",
   "main": "build/src/index.js",
   "directories": {
@@ -62,9 +62,9 @@
   "homepage": "https://github.com/airbnb/ts-migrate#readme",
   "license": "MIT",
   "dependencies": {
+    "@runjuu/ts-migrate-server": "^0.1.19",
     "eslint": "^7.14.0",
     "jscodeshift": "^0.7.0",
-    "@runjuu/ts-migrate-server": "^0.1.11",
     "typescript": "4.1.2"
   },
   "gitHead": "7acf6067f15c9bb367cda9c47fcfb4203dcc54f3",
